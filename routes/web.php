@@ -2,8 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/home', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
-// Route::view('/jogos', 'jogos');
+// Route::get('/jogos', function () {
+//     return view('jogos'); // O nome do arquivo, sem a extensão .blade.php
+// });
