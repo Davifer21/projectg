@@ -9,3 +9,7 @@ Route::get('/welcome', function () {
 Route::get('/jogos', function () {
     return view('jogos'); // O nome do arquivo, sem a extensão .blade.php
 });
+
+Route::get('/davi', function () {
+    return view('davi');
+});
